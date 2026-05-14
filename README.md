@@ -1,23 +1,16 @@
-# HEARTH
+# React + Vite
 
-AI-powered home intelligence. Enter your address and get instant insights about your property — climate zone, soil type, flood risk, seasonal maintenance, energy tips, and more.
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-## Features
+Currently, two official plugins are available:
 
-- **Address autocomplete** via OpenStreetMap Nominatim
-- **AI-powered property analysis** using Claude API
-- **Home Score** — overall readiness rating (60–95)
-- **Seasonal maintenance plan** — Spring, Summer, Fall, Winter
-- **Risk assessment** — flood, climate, environmental
-- **Energy insights** — region-specific efficiency tips
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
 
-## Tech
+## React Compiler
 
-- React (JSX, single-file component)
-- Claude API (Sonnet 4) for property intelligence
-- OpenStreetMap Nominatim for address lookup
-- No external UI libraries — fully custom design
+The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
 
-## Design
+## Expanding the ESLint configuration
 
-Earthy, warm palette inspired by [Hint Home](https://hinthome.com). Instrument Serif + DM Sans typography. Card-based layout with staggered reveal animations.
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
